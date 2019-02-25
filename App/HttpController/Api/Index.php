@@ -35,4 +35,9 @@ Class Index extends BaseWithDb
         // return $this->writeJson(200,'',$sypls);    
         var_dump($sypls);    
     }
+
+    public function yaconf(){
+        $result = \Yaconf::get('redis');
+        return $this->writeJson(200,'OK',$result);
+    }
 }
