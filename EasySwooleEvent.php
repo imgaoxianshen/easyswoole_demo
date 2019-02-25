@@ -8,7 +8,7 @@
 
 namespace EasySwoole\EasySwoole;
 
-use App\lib\ConsumerTest;
+use App\lib\process\ConsumerTest;
 use App\lib\Redis\Redis;
 use App\Utility\Pool\MysqlPool;
 use App\Utility\Exception\ExceptionHandler;
