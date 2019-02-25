@@ -1,6 +1,6 @@
 <?php
 
-namespace App\lib;
+namespace App\lib\process;
 
 use EasySwoole\Component\Di;
 use EasySwoole\EasySwoole\Logger;
