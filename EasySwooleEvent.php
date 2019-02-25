@@ -8,6 +8,7 @@
 
 namespace EasySwoole\EasySwoole;
 
+use App\lib\ConsumerTest;
 use App\lib\Redis\Redis;
 use App\Utility\Pool\MysqlPool;
 use App\Utility\Exception\ExceptionHandler;
@@ -18,6 +19,7 @@ use EasySwoole\Http\Response;
 use EasySwoole\EasySwoole\Swoole\EventRegister;
 use EasySwoole\EasySwoole\AbstractInterface\Event;
 use EasySwoole\Utility\File;
+use EasySwoole\EasySwoole\ServerManager;
 
 class EasySwooleEvent implements Event
 {
@@ -57,6 +59,11 @@ class EasySwooleEvent implements Event
         // 依赖注入
         Di::getInstance()->set('REDIS', Redis::getInstance());
         // TODO: Implement mainServerCreate() method.
+            // TODO: Implement mainServerCreate() method.
+        $allNum = 3;
+        for ($i = 0 ;$i < $allNum;$i++){
+            ServerManager::getInstance()->getSwooleServer()->addProcess((new ConsumerTest("consumer_{$i}"))->getProcess());
+        }
     }
 
     public static function onRequest(Request $request, Response $response): bool

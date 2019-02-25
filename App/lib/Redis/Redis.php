@@ -52,4 +52,11 @@ class Redis
         }
         return $this->redis->del($key);
     }
+
+    public function lpop($key){
+        if(empty($key)){
+            return '';
+        }
+        return $this->redis->lpop($key);
+    }
 }
