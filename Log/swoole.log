@@ -1,0 +1,158 @@
+[2018-12-05 13:53:44 *2302.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Class 'EasySwolle\Http\AbstractInterface\Controller' not found in /www/my_project/App/HttpController/Index.php on line 6.
+[2018-12-05 13:53:44 $2291.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-12-05 17:40:54 *28806.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Class App\HttpController\Index contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (EasySwoole\Http\AbstractInterface\Controller::index) in /www/my_project/App/HttpController/Index.php on line 6.
+[2018-12-05 17:40:54 $28794.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-12-05 18:18:54 *30654.7]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30653.6]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30652.5]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30651.4]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30650.3]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30649.2]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30648.1]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 *30647.0]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30646.15]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30645.14]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30644.13]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30643.12]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30642.11]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30641.10]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30640.9]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 ^30639.8]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 $30637.0]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-05 18:18:54 #30636.1]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-06 14:41:35 *2842.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Declaration of App\HttpController\Api\Index::onRequest() must be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool in /www/my_project/App/HttpController/Api/Index.php on line 5.
+[2018-12-06 14:41:35 $2831.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-12-06 16:23:52 *12730.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=1] is closed.
+[2018-12-06 16:23:52 *12730.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=1] is closed.
+[2018-12-06 16:23:53 *12731.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=2] is closed.
+[2018-12-06 16:23:53 *12731.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=2] is closed.
+[2018-12-06 16:23:53 *12732.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=4] is closed.
+[2018-12-06 16:23:53 *12732.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=4] is closed.
+[2018-12-06 16:23:54 *12733.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=5] is closed.
+[2018-12-06 16:23:54 *12733.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=5] is closed.
+[2018-12-06 16:23:54 *12734.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=6] is closed.
+[2018-12-06 16:23:54 *12734.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=6] is closed.
+[2018-12-06 16:23:54 *12735.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=7] is closed.
+[2018-12-06 16:23:54 *12735.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=7] is closed.
+[2018-12-06 16:23:55 *12736.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=8] is closed.
+[2018-12-06 16:23:55 *12736.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=8] is closed.
+[2018-12-06 16:23:55 *12729.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=9] is closed.
+[2018-12-06 16:23:55 *12729.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=9] is closed.
+[2018-12-06 16:24:00 *12730.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=10] is closed.
+[2018-12-06 16:24:00 *12730.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=10] is closed.
+[2018-12-06 16:24:01 *12731.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=11] is closed.
+[2018-12-06 16:24:01 *12731.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=11] is closed.
+[2018-12-06 16:24:01 *12732.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 183 byte failed, because connection[fd=12] is closed.
+[2018-12-06 16:24:01 *12732.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 174 byte failed, because connection[fd=12] is closed.
+[2018-12-07 21:06:32 *5239.7]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5238.6]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5237.5]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5236.4]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5235.3]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5234.2]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5233.1]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 *5232.0]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5231.15]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5230.14]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5229.13]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5228.12]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5227.11]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5226.10]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5225.9]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 ^5224.8]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 $5222.0]	WARNING	swSignal_callback (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-07 21:06:32 #5221.1]	WARNING	swSignalfd_onSignal (ERROR 706): Unable to find callback function for signal Hangup: 1.
+[2018-12-10 17:22:00 #5221.1]	NOTICE	Server is shutdown now.
+[2018-12-10 17:30:59 #20468.1]	NOTICE	Server is shutdown now.
+[2018-12-15 16:36:56 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10443] is closed.
+[2018-12-15 16:36:56 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10443] is closed.
+[2018-12-15 16:36:56 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10446] is closed.
+[2018-12-15 16:36:56 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10446] is closed.
+[2018-12-15 16:36:56 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10461] is closed.
+[2018-12-15 16:36:56 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10461] is closed.
+[2018-12-15 16:36:56 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10436] is closed.
+[2018-12-15 16:36:56 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10436] is closed.
+[2018-12-15 16:36:56 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10440] is closed.
+[2018-12-15 16:36:56 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10440] is closed.
+[2018-12-15 16:36:56 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10449] is closed.
+[2018-12-15 16:36:56 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10449] is closed.
+[2018-12-15 16:36:56 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10448] is closed.
+[2018-12-15 16:36:56 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10448] is closed.
+[2018-12-15 16:36:56 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10434] is closed.
+[2018-12-15 16:36:56 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10434] is closed.
+[2018-12-15 16:36:57 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10330] is closed.
+[2018-12-15 16:36:57 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10330] is closed.
+[2018-12-15 16:36:57 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10450] is closed.
+[2018-12-15 16:36:57 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10450] is closed.
+[2018-12-15 16:36:58 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10420] is closed.
+[2018-12-15 16:36:58 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10420] is closed.
+[2018-12-15 16:36:58 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=9613] is closed.
+[2018-12-15 16:36:58 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=9613] is closed.
+[2018-12-15 16:36:58 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10292] is closed.
+[2018-12-15 16:36:58 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10292] is closed.
+[2018-12-15 16:36:58 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10333] is closed.
+[2018-12-15 16:36:58 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10333] is closed.
+[2018-12-15 16:36:58 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10525] is closed.
+[2018-12-15 16:36:58 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10525] is closed.
+[2018-12-15 16:36:58 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10338] is closed.
+[2018-12-15 16:36:58 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10338] is closed.
+[2018-12-15 16:36:58 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10346] is closed.
+[2018-12-15 16:36:58 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10346] is closed.
+[2018-12-15 16:36:59 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10310] is closed.
+[2018-12-15 16:36:59 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10310] is closed.
+[2018-12-15 16:36:59 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10147] is closed.
+[2018-12-15 16:36:59 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10147] is closed.
+[2018-12-15 16:36:59 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10286] is closed.
+[2018-12-15 16:36:59 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10286] is closed.
+[2018-12-15 16:37:00 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=8974] is closed.
+[2018-12-15 16:37:00 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=8974] is closed.
+[2018-12-15 16:37:00 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=8975] is closed.
+[2018-12-15 16:37:00 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=8975] is closed.
+[2018-12-15 16:37:00 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10007] is closed.
+[2018-12-15 16:37:00 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10007] is closed.
+[2018-12-15 16:37:01 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10084] is closed.
+[2018-12-15 16:37:01 *30316.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10084] is closed.
+[2018-12-15 16:37:01 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10419] is closed.
+[2018-12-15 16:37:01 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10419] is closed.
+[2018-12-15 16:37:01 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=6201] is closed.
+[2018-12-15 16:37:01 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=6201] is closed.
+[2018-12-15 16:37:01 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10334] is closed.
+[2018-12-15 16:37:01 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10334] is closed.
+[2018-12-15 16:37:03 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=10510] is closed.
+[2018-12-15 16:37:03 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=10510] is closed.
+[2018-12-15 16:39:13 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22710] is closed.
+[2018-12-15 16:39:13 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22710] is closed.
+[2018-12-15 16:39:13 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22713] is closed.
+[2018-12-15 16:39:13 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22713] is closed.
+[2018-12-15 16:39:13 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22709] is closed.
+[2018-12-15 16:39:13 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22709] is closed.
+[2018-12-15 16:39:14 *30552.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22637] is closed.
+[2018-12-15 16:39:14 *30552.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22637] is closed.
+[2018-12-15 16:39:15 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22363] is closed.
+[2018-12-15 16:39:15 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22363] is closed.
+[2018-12-15 16:39:15 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22479] is closed.
+[2018-12-15 16:39:15 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22479] is closed.
+[2018-12-15 16:39:15 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22559] is closed.
+[2018-12-15 16:39:15 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22559] is closed.
+[2018-12-15 16:39:15 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22558] is closed.
+[2018-12-15 16:39:15 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22558] is closed.
+[2018-12-15 16:39:15 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22721] is closed.
+[2018-12-15 16:39:15 *30319.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22721] is closed.
+[2018-12-15 16:39:16 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22530] is closed.
+[2018-12-15 16:39:16 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22530] is closed.
+[2018-12-15 16:39:16 *30552.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22602] is closed.
+[2018-12-15 16:39:16 *30552.2]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22602] is closed.
+[2018-12-15 16:39:16 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22720] is closed.
+[2018-12-15 16:39:16 *30317.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22720] is closed.
+[2018-12-15 16:39:16 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22706] is closed.
+[2018-12-15 16:39:16 *30314.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22706] is closed.
+[2018-12-15 16:39:16 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22494] is closed.
+[2018-12-15 16:39:16 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22494] is closed.
+[2018-12-15 16:39:16 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22655] is closed.
+[2018-12-15 16:39:16 *30315.1]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22655] is closed.
+[2018-12-15 16:39:18 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22393] is closed.
+[2018-12-15 16:39:18 *30320.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22393] is closed.
+[2018-12-15 16:39:19 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22693] is closed.
+[2018-12-15 16:39:19 *30318.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22693] is closed.
+[2018-12-15 16:39:25 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 169 byte failed, because connection[fd=22416] is closed.
+[2018-12-15 16:39:25 *30321.7]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 160 byte failed, because connection[fd=22416] is closed.

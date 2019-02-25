@@ -1,0 +1,13 @@
+18-12-05 13:53:44:Error at file[/www/my_project/vendor/easyswoole/easyswoole/src/ServerManager.php] line[108] message:[Swoole\Server::start(): Exclusive locks are not supported for this stream]
+18-12-05 17:40:54:Error at file[/www/my_project/vendor/easyswoole/easyswoole/src/ServerManager.php] line[108] message:[Swoole\Server::start(): Exclusive locks are not supported for this stream]
+18-12-06 14:41:35:Error at file[/www/my_project/vendor/easyswoole/easyswoole/src/ServerManager.php] line[108] message:[Swoole\Server::start(): Exclusive locks are not supported for this stream]
+18-12-07 16:56:33:Error at file[/www/my_project/App/HttpController/Api/Index.php] line[29] message:[Undefined variable: result]
+18-12-07 16:56:33:Error at file[/www/my_project/App/HttpController/Api/Index.php] line[29] message:[Undefined variable: result]
+18-12-10 17:20:44:Error at file[/www/my_project/vendor/easyswoole/easyswoole/src/ServerManager.php] line[58] message:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501]. Error: Address already in use[98]. in /www/my_project/vendor/easyswoole/easyswoole/src/ServerManager.php:58
+Stack trace:
+#0 /www/my_project/vendor/easyswoole/easyswoole/src/ServerManager.php(58): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/my_project/vendor/easyswoole/easyswoole/src/Core.php(83): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 'WEB_SERVER', '0.0.0.0', Array, 2, 1)
+#2 /www/my_project/vendor/easyswoole/easyswoole/bin/easyswoole.php(182): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/my_project/easyswoole(1): require('/www/my_project...')
+#4 {main}
+  thrown]
