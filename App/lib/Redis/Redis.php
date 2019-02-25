@@ -2,7 +2,6 @@
 namespace App\lib\Redis;
 
 use EasySwoole\Component\Singleton;
-use EasySwoole\EasySwoole\Config;
 
 class Redis
 {
@@ -15,7 +14,7 @@ class Redis
             throw new \Exception('redis扩展不存在');
         }
         try{
-            $redisConfig = Config::getInstance()->getConf('REDIS');
+            $redisConfig = \Yaconf::get('redis');
             $this->redis = new \Redis();
             $result = $this->redis->connect($redisConfig['host'],$redisConfig['port'],$redisConfig['time_out']);
         }catch(\Exception $e){
