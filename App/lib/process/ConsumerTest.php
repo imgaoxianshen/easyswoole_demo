@@ -4,7 +4,7 @@ namespace App\lib\process;
 
 use EasySwoole\Component\Di;
 use EasySwoole\EasySwoole\Logger;
-use EasySwoole\Core\Swoole\Process\AbstractProcess;
+use EasySwoole\EasySwoole\Swoole\Process\AbstractProcess;
 use Swoole\Process;
 
 class ConsumerTest extends AbstractProcess
